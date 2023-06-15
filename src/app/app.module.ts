@@ -20,7 +20,7 @@ import { FavoritesComponent } from './characters/views/favorites/favorites.compo
     ListComponent,
     CardsComponent,
     HomeComponent,
-    FavoritesComponent
+    FavoritesComponent,
   ],
   imports: [
     BrowserModule,
