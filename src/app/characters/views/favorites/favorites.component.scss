@@ -1,31 +1,42 @@
-html, body{
-    height: 100%;
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background: linear-gradient(180deg, #01040E 7.79%, 
     #141F3F 36.91%, #38497B 63.48%, rgba(43, 45, 55, 0.963542) 100%);
+    header{
+        .logo{
+        display: flex;
+    }
 
-
-    .logo img{
+        .logo img{
        height: 30px;
     }
     
-    .nav-menu{
-     display: flex;
-     
-    }
     
-    .nav-menu ul li{
-        list-style: none;
-        display: inline-block;
-        margin-left: 2rem;
+    //     .nav-menu ul li{
+    //     list-style: none;
+    //     display: inline-block;
+    //     margin-left: 1rem;
      
-    }
+    // }
     
-    .nav-menu a{
-        text-decoration: none;
-        font-weight: bold;
-        color: #fff;
-    }
+    //     .nav-menu a{
+    //     text-decoration: none;
+    //     font-weight: bold;
+    //     color: #fff;
+    // }
 
+    // #boton-hamburguesa {      
+    //     color: #fff;
+    //     font-size: 24px;
+    //     font-family: sans-serif;
+    //     padding: 10px;
+    //     border: none;
+    //     cursor: pointer;
+    //   }
+    }
+    
 
 
 }
