@@ -1,0 +1,26 @@
+.banner-home{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "ptext name-image banner-image"; 
+    grid-auto-rows: 180px;
+
+    .character-text { 
+        grid-area: ptext; 
+    }
+
+    .name-image { 
+        grid-area: name-image; 
+    }
+
+    .banner-image { 
+        grid-area: banner-image; 
+
+        img{
+           object-fit: cover;
+        }
+    }
+}
