@@ -10,6 +10,7 @@ import { ListComponent } from './characters/components/list/list.component';
 import { CardsComponent } from './characters/components/cards/cards.component';
 import { HomeComponent } from './characters/views/home/home.component';
 import { FavoritesComponent } from './characters/views/favorites/favorites.component';
+import { MenuHambComponent } from './characters/components/menu-hamb/menu-hamb.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FavoritesComponent } from './characters/views/favorites/favorites.compo
     CardsComponent,
     HomeComponent,
     FavoritesComponent,
+    MenuHambComponent,
   ],
   imports: [
     BrowserModule,
