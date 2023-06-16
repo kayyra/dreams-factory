@@ -1,0 +1,15 @@
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+ 
+}
+
+.nav-menu a{
+    text-decoration: none;
+    font-weight: bold;
+}
