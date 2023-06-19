@@ -1,26 +1,27 @@
-.banner-home{
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-        "ptext name-image banner-image"; 
-    grid-auto-rows: 180px;
+.banner-home {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    
+    .character-day{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-weight: bold;
+        margin-left: 5%;
+        font-size: 24px;
 
-    .character-text { 
-        grid-area: ptext; 
-    }
-
-    .name-image { 
-        grid-area: name-image; 
-    }
-
-    .banner-image { 
-        grid-area: banner-image; 
-
-        img{
-           object-fit: cover;
+        .character-name{
+            text-align: center;
         }
     }
+
+    .character-image img{
+        width: 200px;
+        border-radius: 20px;
+        margin-left: 25%;
+    }
 }
+  
