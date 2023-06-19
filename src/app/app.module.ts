@@ -10,7 +10,7 @@ import { ListComponent } from './characters/components/list/list.component';
 import { CardsComponent } from './characters/components/cards/cards.component';
 import { HomeComponent } from './characters/views/home/home.component';
 import { FavoritesComponent } from './characters/views/favorites/favorites.component';
-import { BannerFavoriteComponent } from './global/components/banner-favorite/banner-favorite.component';
+import { MenuHambComponent } from './characters/components/menu-hamb/menu-hamb.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { BannerFavoriteComponent } from './global/components/banner-favorite/ban
     CardsComponent,
     HomeComponent,
     FavoritesComponent,
-    BannerFavoriteComponent,
+    MenuHambComponent,
   ],
   imports: [
     BrowserModule,
