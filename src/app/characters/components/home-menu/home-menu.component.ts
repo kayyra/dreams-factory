@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-menu-hamb',
-  templateUrl: './menu-hamb.component.html',
-  styleUrls: ['./menu-hamb.component.scss']
+  selector: 'app-home-menu',
+  templateUrl: './home-menu.component.html',
+  styleUrls: ['./home-menu.component.scss']
 })
-export class MenuHambComponent implements OnInit{
-
+export class HomeMenuComponent implements OnInit{
   public active : boolean = false
 
   constructor(){ }
@@ -15,5 +14,4 @@ export class MenuHambComponent implements OnInit{
   setActive() :void{
     this.active = !this.active
   }
- 
 }
