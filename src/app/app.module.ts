@@ -11,7 +11,7 @@ import { CardsComponent } from './characters/components/cards/cards.component';
 import { HomeComponent } from './characters/views/home/home.component';
 import { FavoritesComponent } from './characters/views/favorites/favorites.component';
 import { MenuHambComponent } from './characters/components/menu-hamb/menu-hamb.component';
-import { HomeMenuComponent } from './characters/compontents/home-menu/home-menu.component';
+import { HomeMenuComponent } from './characters/components/home-menu/home-menu.component';
 
 @NgModule({
   declarations: [
