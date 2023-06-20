@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './global/components/header/header.component';
 import { BannerComponent } from './global/components/banner/banner.component';
+import { BannerFavoriteComponent } from './global/components/banner-favorite/banner-favorite.component';
 import { FooterComponent } from './global/components/footer/footer.component';
 import { ListComponent } from './characters/components/list/list.component';
 import { CardsComponent } from './characters/components/cards/cards.component';
@@ -25,6 +26,7 @@ import { HomeMenuComponent } from './characters/components/home-menu/home-menu.c
     FavoritesComponent,
     MenuHambComponent,
     HomeMenuComponent,
+    BannerFavoriteComponent
   ],
   imports: [
     BrowserModule,
