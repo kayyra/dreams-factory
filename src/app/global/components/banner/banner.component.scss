@@ -25,4 +25,9 @@
         margin-left: 25%;
     }
 }
-  
+
+@media (max-width:480px){
+    .banner-home {
+        display: none;
+    }
+}
