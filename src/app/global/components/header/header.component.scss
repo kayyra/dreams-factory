@@ -14,3 +14,13 @@
   font-family: 'Waltograph42', sans-serif;
   font-size: 48px;
 }
+
+@media (max-width: 480px){
+  .dfheader__title{
+    font-size: 48px;
+  }
+  
+  .dfheader__subtitle{
+    font-size: 30px;
+  }
+}
