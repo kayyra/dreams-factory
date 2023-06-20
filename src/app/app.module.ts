@@ -13,7 +13,6 @@ import { HomeComponent } from './characters/views/home/home.component';
 import { FavoritesComponent } from './characters/views/favorites/favorites.component';
 import { MenuHambComponent } from './characters/components/menu-hamb/menu-hamb.component';
 import { HomeMenuComponent } from './characters/components/home-menu/home-menu.component';
-import { BodyhtmlComponent } from './global/components/bodyhtml/bodyhtml.component';
 
 @NgModule({
   declarations: [
@@ -24,15 +23,10 @@ import { BodyhtmlComponent } from './global/components/bodyhtml/bodyhtml.compone
     ListComponent,
     CardsComponent,
     HomeComponent,
-<<<<<<< Updated upstream
     FavoritesComponent,
     MenuHambComponent,
     HomeMenuComponent,
     BannerFavoriteComponent
-=======
-    FavoritesComponent,
-    BodyhtmlComponent,
->>>>>>> Stashed changes
   ],
   imports: [
     BrowserModule,
