@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppComponent } from '../app/app.component';
 import { HeaderComponent } from './global/components/header/header.component';
 import { BannerComponent } from './global/components/banner/banner.component';
 import { BannerFavoriteComponent } from './global/components/banner-favorite/banner-favorite.component';
