@@ -1,7 +1,6 @@
 
 import { Component } from '@angular/core';
 import { Characters} from '../../models/Characters.model';
-
 import { CharactersService } from '../../service/characters.service';
 
 @Component({
@@ -11,12 +10,12 @@ import { CharactersService } from '../../service/characters.service';
 })
 export class ListComponent {
  characters:Characters[] = []
- constructor(private characterService:CharactersService) {} 
+ constructor(private characterService:CharactersService) {}
 
  ngOnInit(){
   this.characterService.getAll().subscribe(
-    (Response:any)=>this.characters = Response.results
-  )
-  
+    (character:any)=> {this.characters = character.data
+    });
+
  }
 }
