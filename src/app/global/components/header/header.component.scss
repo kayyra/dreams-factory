@@ -1,0 +1,44 @@
+@import '../../../../fonts.css';
+
+.container{
+
+
+  .dfheader {
+    color: white;
+  }
+
+  .dfheader__title {
+    font-family: 'Waltograph42', sans-serif;
+    font-size: 72px;
+  }
+
+  .dfheader__subtitle {
+    font-family: 'Waltograph42', sans-serif;
+    font-size: 48px;
+  }
+
+  @media (max-width: 480px){
+  .dfheader__title{
+    font-size: 48px;
+  }
+  
+  .dfheader__subtitle{
+    font-size: 30px;
+  }
+  }
+
+
+  .castle-img img{
+    width: 20%;
+  }
+
+  @media (max-width: 480px){
+  .castle-img img{
+    display: none;
+  }
+  }
+
+  .menu-hamb { 
+    grid-area: menu-hamb; 
+  }
+}
