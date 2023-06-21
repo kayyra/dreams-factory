@@ -17,6 +17,7 @@ registerLocaleData(localeES, 'es');
 import { MenuHambComponent } from './characters/components/menu-hamb/menu-hamb.component';
 import { HomeMenuComponent } from './characters/components/home-menu/home-menu.component';
 import { ListItemsComponent } from './characters/components/list-items/list-items.component';
+import { BannerFavoriteComponent } from './global/components/banner-favorite/banner-favorite.component';
 
 
 @NgModule({
@@ -29,15 +30,11 @@ import { ListItemsComponent } from './characters/components/list-items/list-item
     CardsComponent,
     HomeComponent,
     FavoritesComponent,
-
     DatePipeComponent,
-
-
     MenuHambComponent,
     HomeMenuComponent,
-    BannerFavoriteComponent
-
-    ListItemsComponent,
+    BannerFavoriteComponent,
+    ListItemsComponent
   ],
   imports: [
     BrowserModule,
