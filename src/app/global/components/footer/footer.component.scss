@@ -2,19 +2,19 @@ footer {
     background-color: #2B2D37;
     margin: 0;
     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
 }
 
 p {
-    margin-top: 0px;
-    display: flex;
-    text-align: center;
+    margin-left: 10%;
     color: white;
-    display: block;
 }
 
 #disney {
-    margin-left: 1400px;
-    display: flex;
+    margin-left: 60%;
     text-decoration: white;
     max-width: 100px;
 }

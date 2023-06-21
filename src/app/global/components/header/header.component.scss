@@ -2,6 +2,9 @@
 
 .container{
 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 
   .dfheader {
     color: white;
@@ -27,9 +30,9 @@
   }
   }
 
-
   .castle-img img{
     width: 20%;
+    margin-left: 30%;
   }
 
   @media (max-width: 480px){
