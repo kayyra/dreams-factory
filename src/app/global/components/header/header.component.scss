@@ -1,12 +1,15 @@
 @import '../../../../fonts.css';
 
-.dfheader {
-  margin-left: 20px;
-  color: white;
+.container{
+
+
+  .dfheader {
+    color: white;
+  }
 
   .dfheader__title {
     font-family: 'Waltograph42', sans-serif;
-    font-size: 60px;
+    font-size: 72px;
   }
 
   .dfheader__subtitle {
@@ -22,15 +25,20 @@
   .dfheader__subtitle{
     font-size: 30px;
   }
-}
-}
+  }
 
-.castle-img img{
-  width: 15%;
-}
 
-@media (max-width: 480px){
-.castle-img img{
+  .castle-img img{
+    width: 20%;
+  }
+
+  @media (max-width: 480px){
+  .castle-img img{
     display: none;
-}
+  }
+  }
+
+  .menu-hamb { 
+    grid-area: menu-hamb; 
+  }
 }
