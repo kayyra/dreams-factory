@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  private title : string = 'Hello'
 
+  getTitle():string {
+    return this.title
+  }
 }
