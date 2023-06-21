@@ -1,4 +1,8 @@
+
 import { Component } from '@angular/core';
+import { Characters} from '../../models/Characters.model';
+
+import { CharactersService } from '../../service/characters.service';
 
 @Component({
   selector: 'app-list',
@@ -6,5 +10,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./list.component.scss']
 })
 export class ListComponent {
+ characters:Characters[] = []
+ constructor(private characterService:CharactersService) {} 
 
+ ngOnInit(){
+  this.characterService.getAll().subscribe(
+    (Response:any)=>this.characters = Response.results
+  )
+  
+ }
 }
