@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
@@ -10,7 +10,14 @@ import { ListComponent } from './characters/components/list/list.component';
 import { CardsComponent } from './characters/components/cards/cards.component';
 import { HomeComponent } from './characters/views/home/home.component';
 import { FavoritesComponent } from './characters/views/favorites/favorites.component';
+import localeES from '@angular/common/locales/es';
+import { registerLocaleData } from '@angular/common';
+import { DatePipeComponent } from './characters/components/date-pipe/date-pipe.component';
+registerLocaleData(localeES, 'es');
+import { MenuHambComponent } from './characters/components/menu-hamb/menu-hamb.component';
+import { HomeMenuComponent } from './characters/components/home-menu/home-menu.component';
 import { ListItemsComponent } from './characters/components/list-items/list-items.component';
+
 
 @NgModule({
   declarations: [
@@ -22,6 +29,14 @@ import { ListItemsComponent } from './characters/components/list-items/list-item
     CardsComponent,
     HomeComponent,
     FavoritesComponent,
+
+    DatePipeComponent,
+
+
+    MenuHambComponent,
+    HomeMenuComponent,
+    BannerFavoriteComponent
+
     ListItemsComponent,
   ],
   imports: [
@@ -30,7 +45,7 @@ import { ListItemsComponent } from './characters/components/list-items/list-item
     HttpClientModule,
 
   ],
-  providers: [],
+  providers: [{ provide: LOCALE_ID, useValue: 'es'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
