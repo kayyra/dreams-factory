@@ -18,6 +18,7 @@ import { MenuHambComponent } from './characters/components/menu-hamb/menu-hamb.c
 import { HomeMenuComponent } from './characters/components/home-menu/home-menu.component';
 import { ListItemsComponent } from './characters/components/list-items/list-items.component';
 import { BannerFavoriteComponent } from './global/components/banner-favorite/banner-favorite.component';
+import { ImageContainerComponent } from './characters/components/image-container/image-container.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { BannerFavoriteComponent } from './global/components/banner-favorite/ban
     MenuHambComponent,
     HomeMenuComponent,
     BannerFavoriteComponent,
-    ListItemsComponent
+    ListItemsComponent,
+    ImageContainerComponent
   ],
   imports: [
     BrowserModule,
