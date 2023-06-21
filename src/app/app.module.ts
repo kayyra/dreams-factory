@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,6 +10,10 @@ import { ListComponent } from './characters/components/list/list.component';
 import { CardsComponent } from './characters/components/cards/cards.component';
 import { HomeComponent } from './characters/views/home/home.component';
 import { FavoritesComponent } from './characters/views/favorites/favorites.component';
+import localeES from '@angular/common/locales/es';
+import { registerLocaleData } from '@angular/common';
+import { DatePipeComponent } from './characters/components/date-pipe/date-pipe.component';
+registerLocaleData(localeES, 'es');
 
 @NgModule({
   declarations: [
@@ -21,12 +25,14 @@ import { FavoritesComponent } from './characters/views/favorites/favorites.compo
     CardsComponent,
     HomeComponent,
     FavoritesComponent,
+    DatePipeComponent,
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{ provide: LOCALE_ID, useValue: 'es'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
