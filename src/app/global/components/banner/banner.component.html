@@ -1,9 +1,9 @@
 <div class="banner-home" > 
     <div class="character-day">
         <p>Character of the day...</p>
-        <p class="character-name">aladdin</p>
+        <h1>{{ randomCharacter?.name }}</h1>
     </div>
-    <div class="character-image">
-        <img src="assets/images/aladdin-parecido.jpg" alt="aladdin">
-    </div>
+    <div *ngIf="randomCharacter">
+        <img [src]="randomCharacter.imageUrl" alt="{{ randomCharacter.name }}">
+    </div>      
 </div>
