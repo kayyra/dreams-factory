@@ -19,6 +19,7 @@ import { HomeMenuComponent } from './characters/components/home-menu/home-menu.c
 import { ListItemsComponent } from './characters/components/list-items/list-items.component';
 import { BannerFavoriteComponent } from './global/components/banner-favorite/banner-favorite.component';
 import { ImageContainerComponent } from './characters/components/image-container/image-container.component';
+import { PlayerComponent } from './modules/player/player.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { ImageContainerComponent } from './characters/components/image-container
     HomeMenuComponent,
     BannerFavoriteComponent,
     ListItemsComponent,
-    ImageContainerComponent
+    ImageContainerComponent,
+    PlayerComponent
   ],
   imports: [
     BrowserModule,

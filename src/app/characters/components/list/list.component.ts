@@ -10,6 +10,7 @@ import { CharactersService } from '../../service/characters.service';
 })
 export class ListComponent {
  characters:Characters[] = []
+
  constructor(private characterService:CharactersService) {}
 
  ngOnInit(){
