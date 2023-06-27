@@ -3,5 +3,5 @@ export interface Characters {
    name:string,
    imageUrl:string,
    url:string
-   
+
 }
