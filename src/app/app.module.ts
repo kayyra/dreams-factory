@@ -36,7 +36,9 @@ import { ImageContainerComponent } from './characters/components/image-container
     HomeMenuComponent,
     BannerFavoriteComponent,
     ListItemsComponent,
-    ImageContainerComponent
+    ImageContainerComponent,
+   
+    
   ],
   imports: [
     BrowserModule,
