@@ -3,7 +3,7 @@ import { Component, ElementRef } from '@angular/core';
 @Component({
   selector: 'app-player',
   template: `
-    <audio id="audio-player" controls loop volume="0.5">
+    <audio id="audio-player" autoplay loop volume="0.5">
       <source src="https://audio.jukehost.co.uk/hKVPql4FA5UW4FxhJ3UiQbSqVk3HLbOF" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
