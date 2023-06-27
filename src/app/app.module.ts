@@ -40,9 +40,13 @@ import { PlayerComponent } from './modules/player/player.component';
     BannerFavoriteComponent,
     ListItemsComponent,
     ImageContainerComponent,
+
+   
+
     FavoritesImageContainerComponent,
     AddforyouImageContainerComponent,
     PlayerComponent
+
   ],
   imports: [
     BrowserModule,
