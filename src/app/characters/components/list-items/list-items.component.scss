@@ -1,13 +1,11 @@
 img{
     display: grid;
-    height: 260px;
-    width: 202.5px;
-    padding: 10px;
-    grid-gap: 10px;
+    height: 39.5vh;
+    width: 30.8vh;
+    grid-gap: 1.5vh;
     grid-template-rows: repeat(auto-fill);
     float:left;
     border: 1px solid black;
-    border-radius: 10px;
-    padding: 5px;
-  
+    border-radius: 1.5vh;
+    padding: 0.76vh;
 }
