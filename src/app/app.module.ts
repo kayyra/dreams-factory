@@ -1,6 +1,7 @@
 import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { MatDialogModule } from '@angular/material/dialog';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from '../app/app.component';
 import { HeaderComponent } from './global/components/header/header.component';
@@ -22,6 +23,7 @@ import { ImageContainerComponent } from './characters/components/image-container
 import { FavoritesImageContainerComponent } from './characters/components/favorites-image-container/favorites-image-container.component';
 import { AddforyouImageContainerComponent } from './characters/components/addforyou-image-container/addforyou-image-container.component';
 import { PlayerComponent } from './modules/player/player.component';
+import { CharacterDialogComponent } from './characters/components/character-dialog/character-dialog.component';
 
 
 @NgModule({
@@ -42,12 +44,15 @@ import { PlayerComponent } from './modules/player/player.component';
     ImageContainerComponent,
     FavoritesImageContainerComponent,
     AddforyouImageContainerComponent,
-    PlayerComponent
+    PlayerComponent,
+    CharacterDialogComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    MatDialogModule
 
   ],
   providers: [{ provide: LOCALE_ID, useValue: 'es'}],
