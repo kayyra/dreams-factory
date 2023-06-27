@@ -1,9 +1,22 @@
-<h1 mat-dialog-title>{{data.name}}</h1>
-<div mat-dialog-content>
-  <p>TV Show: {{data.tvShows}}</p>
-  <p>Films: {{data.films.join(', ')}}</p>
-  <p>Video Games: {{data.videoGames.join(', ')}}</p>
+
+<div class="background">
+  <p>Character Details</p>
 </div>
-<div mat-dialog-actions>
-  <button mat-button (click)="onNoClick()">Close</button>
-</div>
+  <h1 mat-dialog-title>{{data.name}}</h1>
+  <div mat-dialog-content>
+    <p>TV Show: {{data.tvShows}}</p>
+    <p>Films: {{data.films.join(', ')}}</p>
+    <p>Video Games: {{data.videoGames.join(', ')}}</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20"  fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+      <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
+      <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
+    </svg>
+    <svg width="35" height="20" margin="5px" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M22.5738 9.49576C19.8981 7.21549 15.9186 7.62564 13.4625 10.1598L12.5006 11.151L11.5387 10.1598C9.08751 7.62564 5.10314 7.21549 2.42736 9.49576C-0.639049 12.1129 -0.800182 16.8102 1.94396 19.6471L11.3922 29.403C12.0026 30.0329 12.9938 30.0329 13.6041 29.403L23.0524 19.6471C25.8014 16.8102 25.6402 12.1129 22.5738 9.49576Z" fill="#BD1111"/>
+      <path d="M33.3125 8.59375H26.2812V1.5625C26.2812 0.699707 25.5815 0 24.7188 0H23.1562C22.2935 0 21.5938 0.699707 21.5938 1.5625V8.59375H14.5625C13.6997 8.59375 13 9.29346 13 10.1562V11.7188C13 12.5815 13.6997 13.2812 14.5625 13.2812H21.5938V20.3125C21.5938 21.1753 22.2935 21.875 23.1562 21.875H24.7188C25.5815 21.875 26.2812 21.1753 26.2812 20.3125V13.2812H33.3125C34.1753 13.2812 34.875 12.5815 34.875 11.7188V10.1562C34.875 9.29346 34.1753 8.59375 33.3125 8.59375Z" fill="#42B42F"/>
+      </svg>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Close</button>
+  </div>
+
