@@ -21,6 +21,7 @@ import { BannerFavoriteComponent } from './global/components/banner-favorite/ban
 import { ImageContainerComponent } from './characters/components/image-container/image-container.component';
 import { FavoritesImageContainerComponent } from './characters/components/favorites-image-container/favorites-image-container.component';
 import { AddforyouImageContainerComponent } from './characters/components/addforyou-image-container/addforyou-image-container.component';
+import { PlayerComponent } from './modules/player/player.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { AddforyouImageContainerComponent } from './characters/components/addfor
     ListItemsComponent,
     ImageContainerComponent,
     FavoritesImageContainerComponent,
-    AddforyouImageContainerComponent
+    AddforyouImageContainerComponent,
+    PlayerComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-left: 5%;
 
   .dfheader {
     color: white;
@@ -18,6 +19,7 @@
   .dfheader__subtitle {
     font-family: 'Waltograph42', sans-serif;
     font-size: 48px;
+    width: 175%;
   }
 
   @media (max-width: 480px){
@@ -31,8 +33,8 @@
   }
 
   .castle-img img{
-    width: 20%;
-    margin-left: 30%;
+    width: 30%;
+    margin-left: 40%;
   }
 
   @media (max-width: 480px){
