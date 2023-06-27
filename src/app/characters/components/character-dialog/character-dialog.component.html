@@ -1,9 +1,14 @@
-<h1 mat-dialog-title>{{data.name}}</h1>
-<div mat-dialog-content>
-  <p>TV Show: {{data.tvShows}}</p>
-  <p>Films: {{data.films.join(', ')}}</p>
-  <p>Video Games: {{data.videoGames.join(', ')}}</p>
+
+<div class="background">
+  <p>Character Details</p>
 </div>
-<div mat-dialog-actions>
-  <button mat-button (click)="onNoClick()">Close</button>
-</div>
+  <h1 mat-dialog-title>{{data.name}}</h1>
+  <div mat-dialog-content>
+    <p>TV Show: {{data.tvShows}}</p>
+    <p>Films: {{data.films.join(', ')}}</p>
+    <p>Video Games: {{data.videoGames.join(', ')}}</p>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Close</button>
+  </div>
+
