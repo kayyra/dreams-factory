@@ -3,9 +3,9 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 export interface CharacterData {
   name: string;
-  tvShow: string;
+  tvShows: string;
   films: string[];
-  videogames: string[];
+  videoGames: string[];
 }
 
 @Component({
