@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-addforyou-image-container',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./addforyou-image-container.component.scss']
 })
 export class AddforyouImageContainerComponent {
-
+  @Input() images: string[] = [];
 }

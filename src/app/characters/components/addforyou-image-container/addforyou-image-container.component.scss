@@ -9,3 +9,15 @@
     border-radius: 20px;
   }
   
+  .image-container img {
+    display: grid;
+    height: 39.5vh;
+    width: 30.8vh;
+    grid-gap: 1.5vh;
+    grid-template-rows: repeat(auto-fill);
+    float:left;
+    border: 1px solid black;
+
+    border-radius: 1.5vh;
+    padding: 0.76vh;
+  }

@@ -10,7 +10,7 @@
         <div class="addforyou">
             <h2>Add for you</h2>
             <button (click)="toggleForm()" id="buttonadd"></button>
-            <form [hidden]="!formularioVisible">
+            <form *ngIf="formulary" (submit)="onSubmit()">
               <label for="name">Name:</label>
               <input type="text" id="name" name="name" required><br>
               <label for="tvshows">Tv Shows:</label>
@@ -20,11 +20,11 @@
               <label for="videogames">Videogames:</label>
               <input type="text" id="videogames" name="videogames" required><br>
               <label for="image">Image:</label>
-              <input type="file" id="image" name="image"><br>             
+              <input type="file" id="image" name="image" (change)="onImageSelected($event)"><br>             
               <button type="submit">Submit</button>
             </form>
             
-            <app-addforyou-image-container></app-addforyou-image-container>
+            <app-addforyou-image-container [images]="selectedImages"></app-addforyou-image-container>
         </div>
     </main>
     <footer>
