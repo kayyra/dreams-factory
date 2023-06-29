@@ -1,8 +1,9 @@
 .background {
-  background-image: url('../src/assets/images/mikey.png');
+  background-color: whitesmoke;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
 
   p {
     height: 10px;
@@ -10,4 +11,39 @@
     margin-left: 5px;
   }
 
+.body {
+  border-radius: 10px;
+}
+
+p {
+  height: 100%;
+  width: 100%;
+  background-color: #0081CB;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+
+.favorite:hover {
+  background-color: #00ff80;
+}
+
+.unfavorite:hover {
+  background-color: #ff0000;
 }

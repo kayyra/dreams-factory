@@ -11,6 +11,7 @@ export interface CharacterData {
 @Component({
   selector: 'app-character-dialog',
   templateUrl: 'character-dialog.component.html',
+  styleUrls: ['./character-dialog.component.scss']
 })
 export class CharacterDialogComponent {
 
