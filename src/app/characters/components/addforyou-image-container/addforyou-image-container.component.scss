@@ -1,0 +1,23 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #90C6FA;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 20px;
+  }
+  
+  .image-container img {
+    display: grid;
+    height: 39.5vh;
+    width: 29.1vh;
+    grid-gap: 1.5vh;
+    grid-template-rows: repeat(auto-fill);
+    float:left;
+    border: 1px solid black;
+
+    border-radius: 1.5vh;
+    padding: 0.76vh;
+  }

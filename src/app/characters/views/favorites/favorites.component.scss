@@ -4,19 +4,45 @@ body{
     box-sizing: border-box;
     background: linear-gradient(180deg, #01040E 7.79%, 
     #141F3F 36.91%, #38497B 63.48%, rgba(43, 45, 55, 0.963542) 100%);
-    header{
-        .logo{
-        display: flex;
+    .favorites{
+        color: white;
+        font-size: 24px;
+        margin-left: 5%;
     }
 
-        .logo img{
-            margin-top: 1rem;
-            height: 40px;
+    .addforyou{
+        color: white;
+        font-size: 24px;
+        margin-left: 5%;
     }
-        
-    }
-    
 
+    #buttonadd {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            position: relative;
+            cursor: pointer;
+        }
 
+        #buttonadd:before,
+        #buttonadd:after {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 3px;
+            background-color: black;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #buttonadd:before {
+            transform: translate(-50%, -50%) rotate(90deg);
+        }
+
+        #buttonadd:after {
+            transform: translate(-50%, -50%);
+        }
 }
 
