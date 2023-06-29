@@ -1,0 +1,31 @@
+footer {
+    background: linear-gradient(180deg, #01040E 13.34%, #141F3F 40.71%, #38497B 65.67%, rgba(43, 45, 55, 0.96) 100%);
+    margin: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+p {
+    margin-left: 10%;
+    color: white;
+}
+
+#disney {
+    text-decoration: white;
+    max-width: 100px;
+    margin-left: 20%;
+}
+
+#home {
+    margin-left: 80%;
+    text-decoration: white;
+}
+
+a {
+    color: white; 
+}
+
+

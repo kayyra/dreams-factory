@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./favorites.component.scss']
 })
 export class FavoritesComponent {
+  formularioVisible: boolean = false;
 
+  toggleForm() {
+    this.formularioVisible = !this.formularioVisible;
+  }
 }
