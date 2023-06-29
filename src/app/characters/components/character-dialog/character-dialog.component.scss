@@ -1,8 +1,9 @@
 .background {
-  background-image: url('../src/assets/images/mikey.png');
+  background-color: whitesmoke;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
 
   p {
     height: 10px;
@@ -10,17 +11,8 @@
     margin-left: 5px;
   }
 
-}
-.background {
-  background-image: url('../../../../assets/images/mikey.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .body {
   border-radius: 10px;
-
 }
 
 p {
